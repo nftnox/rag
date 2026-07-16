@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8" />
+  <title>Caffe Bar Luna</title>
+  <style>
+    body { font-family: -apple-system,Segoe UI,Roboto,Arial,sans-serif; margin: 0; background: #f4f5f7; }
+    .menu-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 18px; padding: 8px 32px 32px; max-width: 1100px; margin: 0 auto; }
+    .menu-card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.08); text-decoration: none; color: inherit; display: block; transition: transform .15s, box-shadow .15s; }
+    .menu-card:hover { transform: translateY(-3px); box-shadow: 0 4px 14px rgba(0,0,0,.12); }
+    .menu-card img { width: 100%; height: 130px; object-fit: cover; display: block; background: #eee; }
+    .menu-card-body { padding: 10px 12px; }
+    .menu-card-body .naziv { font-weight: 600; font-size: 13.5px; margin-bottom: 4px; }
+    .menu-card-body .cijena { color: #6f4e37; font-weight: 700; font-size: 13.5px; }
+    .section-title { padding: 28px 32px 0; margin: 0; font-size: 20px; }
+  </style>
+</head>
+<body>
+  <header style="background:#6f4e37;color:#fff;padding:24px 32px">
+    <h1 style="margin:0 0 4px">Caffe Bar Luna</h1>
+    <p style="margin:0;opacity:.85">Specialty kafa, domaći kolači i opuštena atmosfera.</p>
+  </header>
+
+  <h2 class="section-title">Naš meni</h2>
+  <div class="menu-grid">
+      <a class="menu-card" href="products/caffe-luna/americano.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Americano" alt="Americano" />
+        <div class="menu-card-body">
+          <div class="naziv">Americano</div>
+          <div class="cijena">2.80 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/bijela-kafa.html">
+        <img src="https://firebasestorage.googleapis.com/v0/b/ragg-ae919.firebasestorage.app/o/businesses%2Fbiz-caffe-luna%2Fproducts%2F1784198679733-flat-white-d8ada0f.jpg?alt=media&token=47fc17d3-f803-431d-ae12-8364ae7e1421" alt="Bijela Kafa" />
+        <div class="menu-card-body">
+          <div class="naziv">Bijela Kafa</div>
+          <div class="cijena">2.20 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/caffe-latte.html">
+        <img src="https://placehold.co/400x300?text=Caffe+Latte" alt="Caffe Latte" />
+        <div class="menu-card-body">
+          <div class="naziv">Caffe Latte</div>
+          <div class="cijena">3.20 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/cappuccino.html">
+        <img src="https://placehold.co/400x300?text=Cappuccino" alt="Cappuccino" />
+        <div class="menu-card-body">
+          <div class="naziv">Cappuccino</div>
+          <div class="cijena">3.00 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/cold-brew.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Cold%20Brew" alt="Cold Brew" />
+        <div class="menu-card-body">
+          <div class="naziv">Cold Brew</div>
+          <div class="cijena">4.00 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/caj-menta.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=%C4%8Caj%20od%20Mente" alt="Čaj od Mente" />
+        <div class="menu-card-body">
+          <div class="naziv">Čaj od Mente</div>
+          <div class="cijena">2.00 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/caj-sipak.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=%C4%8Caj%20od%20%C5%A0ipka" alt="Čaj od Šipka" />
+        <div class="menu-card-body">
+          <div class="naziv">Čaj od Šipka</div>
+          <div class="cijena">2.00 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/cheesecake.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=%C4%8Cizkejk%20sa%20%C5%A0umskim%20Vo%C4%87em" alt="Čizkejk sa Šumskim Voćem" />
+        <div class="menu-card-body">
+          <div class="naziv">Čizkejk sa Šumskim Voćem</div>
+          <div class="cijena">4.80 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/cokoladna-torta.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=%C4%8Cokoladna%20Torta" alt="Čokoladna Torta" />
+        <div class="menu-card-body">
+          <div class="naziv">Čokoladna Torta</div>
+          <div class="cijena">4.20 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/limunada.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Doma%C4%87a%20Limunada" alt="Domaća Limunada" />
+        <div class="menu-card-body">
+          <div class="naziv">Domaća Limunada</div>
+          <div class="cijena">3.00 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/croissant.html">
+        <img src="https://placehold.co/400x300?text=Kroasan" alt="Domaći kroasan" />
+        <div class="menu-card-body">
+          <div class="naziv">Domaći kroasan</div>
+          <div class="cijena">2.00 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/espresso-doppio.html">
+        <img src="https://placehold.co/400x300?text=Espresso+Doppio" alt="Espresso Doppio" />
+        <div class="menu-card-body">
+          <div class="naziv">Espresso Doppio</div>
+          <div class="cijena">2.50 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/flat-white.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Flat%20White" alt="Flat White" />
+        <div class="menu-card-body">
+          <div class="naziv">Flat White</div>
+          <div class="cijena">3.50 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/frape.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Frape" alt="Frape" />
+        <div class="menu-card-body">
+          <div class="naziv">Frape</div>
+          <div class="cijena">3.90 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/karamel-macchiato.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Karamel%20Macchiato" alt="Karamel Macchiato" />
+        <div class="menu-card-body">
+          <div class="naziv">Karamel Macchiato</div>
+          <div class="cijena">3.80 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/iced-latte.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Ledena%20Kafa%20(Iced%20Latte)" alt="Ledena Kafa (Iced Latte)" />
+        <div class="menu-card-body">
+          <div class="naziv">Ledena Kafa (Iced Latte)</div>
+          <div class="cijena">3.70 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/mafin-borovnica.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Mafin%20sa%20Borovnicom" alt="Mafin sa Borovnicom" />
+        <div class="menu-card-body">
+          <div class="naziv">Mafin sa Borovnicom</div>
+          <div class="cijena">2.50 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/mocha.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Mocha" alt="Mocha" />
+        <div class="menu-card-body">
+          <div class="naziv">Mocha</div>
+          <div class="cijena">3.60 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/sendvic-sunka-sir.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Sendvi%C4%8D%20%C5%A0unka-Sir" alt="Sendvič Šunka-Sir" />
+        <div class="menu-card-body">
+          <div class="naziv">Sendvič Šunka-Sir</div>
+          <div class="cijena">5.50 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/smoothie-jagoda-banana.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Smoothie%20Jagoda-Banana" alt="Smoothie Jagoda-Banana" />
+        <div class="menu-card-body">
+          <div class="naziv">Smoothie Jagoda-Banana</div>
+          <div class="cijena">4.50 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/sok-narandza.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Svje%C5%BEe%20Cije%C4%91eni%20Sok%20od%20Narand%C5%BEe" alt="Svježe Cijeđeni Sok od Narandže" />
+        <div class="menu-card-body">
+          <div class="naziv">Svježe Cijeđeni Sok od Narandže</div>
+          <div class="cijena">4.00 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/tiramisu.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Tiramisu" alt="Tiramisu" />
+        <div class="menu-card-body">
+          <div class="naziv">Tiramisu</div>
+          <div class="cijena">4.50 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/turska-kafa.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Turska%20Kafa" alt="Turska Kafa" />
+        <div class="menu-card-body">
+          <div class="naziv">Turska Kafa</div>
+          <div class="cijena">2.00 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/hot-chocolate.html">
+        <img src="https://placehold.co/400x300?text=Vruca+Cokolada" alt="Vruća čokolada" />
+        <div class="menu-card-body">
+          <div class="naziv">Vruća čokolada</div>
+          <div class="cijena">3.50 BAM</div>
+        </div>
+      </a>
+      <a class="menu-card" href="products/caffe-luna/zeleni-caj.html">
+        <img src="https://placehold.co/500x360/6f4e37/ffffff?text=Zeleni%20%C4%8Caj" alt="Zeleni Čaj" />
+        <div class="menu-card-body">
+          <div class="naziv">Zeleni Čaj</div>
+          <div class="cijena">2.00 BAM</div>
+        </div>
+      </a>
+  </div>
+
+  <main style="padding:0 32px 32px;max-width:720px">
+    <p>
+      Ovo simulira tuđu web-stranicu na koju je AI chat dodan sa samo JEDNIM
+      script tagom, bez ijedne druge izmjene sajta:
+    </p>
+    <pre style="background:#fff;padding:12px;border-radius:8px;overflow:auto;border:1px solid #e2e2e2">&lt;script
+  src="../dist/widget.js"
+  data-business-id="biz-caffe-luna"
+  data-primary-color="#6f4e37"
+  data-accent-color="#d4a373"&gt;
+&lt;/script&gt;</pre>
+    <p>Widget zove pravi (produkcijski) Cloud Function <code>chat</code> jer je već deployovan.</p>
+  </main>
+
+  <script
+    src="../dist/widget.js"
+    data-business-id="biz-caffe-luna"
+    data-primary-color="#6f4e37"
+    data-accent-color="#d4a373"
+    data-greeting="Dobrodošli u Caffe Bar Luna! Pitajte me o našim kafama, napicima ili kolačima."
+  ></script>
+</body>
+</html>
